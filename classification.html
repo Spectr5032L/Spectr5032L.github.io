@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Классификация - Главная</title>
+    <link rel="stylesheet" href="assets/css/root/content.css">
+    <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- <a href="drilling.html" style="height: 1px;"> -->
+            <img src="assets/css/img/logo-icon.png" alt="логотип сайта">
+        <!-- </a> -->
+    </header>
+
+    <main class="main-content">
+        <section class="main-content__navigation">
+            <div class="navigation__title">
+                <p>Разделы</p>
+                <img src="assets/css/img/angle-up.svg" alt="стрелочка вверх" id="toggle-submenu"> 
+            </div>
+            <div class="navigation__content" id="submenu">
+                <a href="drilling.html"><p class="unactive-page">Бурение</p></a>
+                <p class="active-page">Классификация</p>
+                <a href="exploitation.html"><p class="unactive-page">Эксплуатация</p></a>
+            </div>
+        </section>
+
+        <div class="main-content__content">
+            <h3>Раздел: Классификация</h3>
+            <div class="content__text">
+                <p>Классификация скважин нефти основана на различных критериях, таких как геологические характеристики, производительность, метод добычи и др. Вот некоторые из наиболее распространенных способов классификации скважин нефти:</p> <br>
+                <ol>
+                    <li class="color-text">
+                        По геологическим характеристикам:
+                        <ul>
+                            <li>Нефтяные скважины (добывают нефть).</li>
+                            <li>Газовые скважины (добывают природный газ).</li>
+                            <li>Конденсатные скважины (добывают газовый конденсат).</li>
+                            <li>Комплексные скважины (добывают смесь нефти и газа).</li>
+                        </ul>
+                    </li>
+                    <li class="color-text">
+                        По способу добычи:
+                        <ul>
+                            <li>Промысловые скважины (добываются с использованием методов физического воздействия, таких как закачка воды, газа или пара).</li>
+                            <li>Нагнетательные скважины (добываются путем нагнетания вещества в скважину для увеличения давления и улучшения потока нефти).</li>
+                            <li>Фонтанно-насосные скважины (добываются с использованием насосов для подъема нефти на поверхность).</li>
+                            <li>Продукционные скважины (добываются без применения физических методов, например, за счет давления пласта).</li>
+                        </ul>
+                    </li>
+                    <li class="color-text">
+                        По типу скважины:
+                        <ul>
+                            <li>Верхнепластовые скважины (размещаются над нефтяным пластом).</li>
+                            <li>Среднепластовые скважины (размещаются на уровне нефтяного пласта).</li>
+                            <li>Нижнепластовые скважины (размещаются ниже уровня нефтяного пласта).</li>
+                            <li>Горизонтальные скважины (добываются путем бурения горизонтального отрезка в нефтяном пласте).</li>
+                        </ul>
+                    </li>
+                    <li class="color-text">
+                        По производительности:
+                        <ul>
+                            <li>Перспективные скважины (имеют высокую производительность и экономическую ценность).</li>
+                            <li>Некоммерческие скважины (имеют низкую производительность или недостаточную для экономической добычи нефти).</li>
+                        </ul>
+                    </li>
+                    <img src="assets/css/img/classification.jpg" alt="Скважина" class="main-image">
+                </ol>
+            </div>
+        </div>
+
+        
+    </main>
+
+</body>
+
+<script>
+    var toggleButton = document.getElementById('toggle-submenu');
+    var submenu = document.getElementById('submenu');
+    var image = toggleButton;
+    
+    toggleButton.addEventListener('click', function() {
+        submenu.classList.toggle('active');
+        image.classList.toggle('rotated');
+    });
+</script>
+
+</html>
