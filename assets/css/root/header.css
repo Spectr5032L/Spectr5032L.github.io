@@ -1,0 +1,62 @@
+header {
+    margin-bottom: 3rem;
+}
+
+nav {
+    position: relative;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > a {
+    color: black;
+    font-size: 20px;
+    padding: 9px 17px;
+    background-color: transparent; /* Начальный прозрачный фон */
+    border-radius: 10px;
+    transition: .4s;
+}
+
+nav > a:hover {
+    background: rgba(0, 153, 128, 0.8); /* Фон при наведении */
+    color: white;
+}
+
+.logo-colored {  /* Было 80 и 105 */
+    margin-bottom: -15px;
+    z-index: 1;
+    width: 80px;
+    height: 105px;
+}
+
+/* nav > a:nth-child(1) {
+    background-color: rgba(0, 153, 128, 0.8);
+} */
+
+header > div > p {
+    color: white;
+}
+
+header > div {
+    position: relative;
+}
+
+.fon {
+    display: block;
+    max-height: 800px;
+    width: 100%;
+    filter: blur(1px);
+}
+
+header p {
+    position: absolute; /* Позиционируем абсолютно внутри div с position: relative */
+    font-size: 48px;
+    max-width: 800px;
+    top: 37%; /* Перемещаем вниз относительно верхнего края на 50% высоты родительского блока */
+    left: 5%; /* Перемещаем вправо относительно левого края на 50% ширины родительского блока */
+    /* width: max-content; Минимальная ширина содержимого, можно задать фиксированную ширину если нужно */
+    /* z-index: 1; */
+    text-align: left;
+}

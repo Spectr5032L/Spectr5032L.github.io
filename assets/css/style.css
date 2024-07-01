@@ -1,0 +1,95 @@
+@import "root/root.css";
+@import "root/header.css";
+@import "root/footer.css";
+@import "root/main.css";
+@import "root/media.css";
+
+.post_loop_news { /* Стиль для новостей */
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 4.5rem
+}
+
+.post_loop {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 2rem
+}
+
+.text-heading {
+    color: white;
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+
+.main-text {
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.main-video video{
+    /* max-width: 760px;
+    max-height: 380px; */
+    width: 100%;
+    border-radius: 25px;
+}
+
+/* index */
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+} */
+
+/* .main-container {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* display: grid;
+    grid-gap: 1rem; */
+    /* grid-template-columns: repeat(3, 3fr); */
+   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 3rem;
+}  */
+
+/* .post_loop {
+    width: 700px;
+    display: flex;
+    flex-direction: column; */
+    /* row-gap: 10px; */
+    /* padding: 20px;
+    margin-bottom: 2rem
+} */
+
+/* .main-video i {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-size: 50px;
+    position: absolute;
+    right: 8%;
+    top: 80%;
+} */
+
+
+
+
+/* News */
+
+/* .text-heading {
+    margin-bottom: 2rem;
+} */
+
+/* .single-news {
+    color: #aaa;
+} */
