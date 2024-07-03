@@ -1,5 +1,7 @@
 main {
-    padding: 50px 180px;
+    flex: 1; /* Заставляет main занимать все доступное пространство */
+    /* padding: 50px 180px; */
+    padding: 3rem 9rem;
     display: flex;
     justify-content: center;
     /* margin-bottom: 3rem; */  /* больший отступ под карточкой */
@@ -17,4 +19,3 @@ main {
 /* .main-video {
     position: relative;
 } */
-
