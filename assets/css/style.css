@@ -5,7 +5,7 @@
 @import "root/media.css";
 
 .post_loop_news { /* Стиль для новостей */
-    width: 700px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -13,33 +13,41 @@
 }
 
 .post_loop {
-    width: 700px;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 20px;
     margin-bottom: 2rem
-}
-
-.text-heading {
-    color: white;
-    width: 100%;
-    font-size: 40px;
-    margin-bottom: 0.5rem;
-}
-
-.main-text {
-    color: white;
-    width: 100%;
-    font-size: 20px;
-    margin-bottom: 0.5rem;
 }
 
 .main-video video{
     /* max-width: 760px;
     max-height: 380px; */
-    width: 100%;
-    border-radius: 25px;
+    /* width: 100%; */
+    width: 35vw;
+    /* border-radius: 25px; */
+    border-radius: 1.5vw;
 }
+
+.text-heading {
+    color: white;
+    width: 100%;
+    /* font-size: 40px; */
+    font-size: 2.1vw;
+    margin-bottom: 0.5rem;
+}
+
+.main-text {
+    color: white;
+    /* width: 100%; */
+    width: 35vw;
+    /* font-size: 20px; */
+    font-size: 1.03vw;
+    margin-bottom: 0.5rem;
+}
+
+
 
 /* index */
 
