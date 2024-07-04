@@ -15,8 +15,8 @@ nav > a {
     color: black;
     width: max-content;
     /* width: 20.3vw; */
-    /* font-size: 20px; */
-    font-size: 1.1vw;
+    font-size: 20px;
+    /* font-size: 1.1vw; */
     padding: 9px 17px;
     /* padding: 1.8vw 5vw; */
     background-color: transparent; /* Начальный прозрачный фон */
@@ -29,7 +29,7 @@ nav > a:hover {
     color: white;
 }
 
-.logo-colored {  /* Было 80 и 105 */
+.logo-colored {
     /* margin-bottom: -15px; */
     margin-bottom: -0.6vw;
     z-index: 1;
@@ -56,8 +56,8 @@ header > div {
 
 header p {
     position: absolute; /* Позиционируем абсолютно внутри div с position: relative */
-    /* font-size: 48px; */
-    font-size: 2.5vw;
+    font-size: 48px;
+    /* font-size: 2.5vw; */
     color: white;
     /* max-width: 800px; */
     max-width: 50vw;
