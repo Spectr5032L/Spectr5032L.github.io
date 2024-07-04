@@ -1,5 +1,57 @@
-@media (max-width: 750px) {
-    header, main, footer {
-        
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+
+    .logo-colored {
+        display: none;
+    }
+
+}
+
+@media (max-width: 320px) {
+    main {
+        padding: 1rem 2rem !important;
+    }
+    .text-heading {
+        font-size: 5vw !important;
+    }
+    .main-text {
+        font-size: 2.7vw !important;
+    }
+    nav {
+        height: 10vw;
+    }
+    nav > a {
+        font-size: 4vw;
+        padding: 4px 6px !important;
+        border-radius: 7px;
+    }
+    header p {
+        font-size: 3.9vw;
+    }
+
+    footer p {
+        padding: 10px 0;
+        font-size: 1.8vw;
+    }
+    
+    footer > p:nth-child(2) {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    footer img {
+        height: 20px;
     }
 }
