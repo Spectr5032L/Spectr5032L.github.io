@@ -10,7 +10,7 @@ footer {
 
 footer p {
     padding: 20px 0;
-    font-size: 1.03vw;
+    font-size: 20px;
 }
 
 footer > p:nth-child(2) {
