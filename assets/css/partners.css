@@ -4,6 +4,7 @@
 @import "root/media.css";
 
 main {
+    flex: 1;
     padding: 50px 180px;
     display: flex;
     justify-content: center;
@@ -78,8 +79,8 @@ main {
 }
 
 .main-container .card:hover .imgBox img {
-max-width: 150px; /* Ширина изображения после анимации */
-transition: .3s ease-in-out;
+    max-width: 150px; /* Ширина изображения после анимации */
+    transition: .3s ease-in-out;
 }
 
 .main-container .card .content {
@@ -87,7 +88,7 @@ transition: .3s ease-in-out;
     right: 0;
     width: calc(100% - 125px);
     padding: 20px;
-    top: calc(50% - 100px);
+    top: calc(50% - 120px);
     display: flex;
     justify-content: center;
     align-items: center;
