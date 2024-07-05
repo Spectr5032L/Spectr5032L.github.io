@@ -70,6 +70,18 @@
         padding: 2rem 4rem !important;
     }
 
+    .main-container .card .imgBox {
+        top: calc(50% - 100px) !important;
+        left: -75px !important;
+        width: 200px !important; /* Размер карточки */
+        height: 200px !important;
+        background-color: #ffffff !important;
+    }
+    
+    .main-container .card .imgBox img {
+        max-width: 150px !important; /* Размер изображения */
+    }
+
     .main-video video {
         width: 60vw;
     }
@@ -177,6 +189,31 @@
     .post_loop {
         margin-bottom: 0 !important;
     }
+
+    .main-container .card {
+        left: 40px;
+        width: 85% !important;
+        height: 60vw !important;
+    }
+
+    .main-container .card .content {
+        left: 40px !important;
+    }
+
+    .main-container .card .content {
+        width: calc(100% - 37px) !important;
+    }
+
+    .main-container .card .imgBox {
+        top: calc(50% - 115px) !important;
+        left: -80px !important;
+        width: 120px !important; /* Размер карточки */
+        height: 120px !important;
+    }
+    
+    .main-container .card .imgBox img {
+        max-width: 100px !important; /* Размер изображения */
+    }
     
     header p {
         font-size: 4.2vw;
@@ -221,6 +258,48 @@
         padding-bottom: 10px;
         padding-top: 10px;
         gap: 10px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+
+    .main-container .card {
+        height: 70vw !important;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .content p {
+        font-size: 12px;
+    }
+
+    .main-container .card {
+        height: 70vw !important;
+    }
+
+    .main-container .card {
+        left: 32px;
+    }
+
+    .main-container .card .imgBox {
+        top: calc(50% - 90px) !important;
+        left: -65px !important;
+    }
+
+    .main-container .card .content {
+        top: calc(50% - 110px) !important;
+    }
+}
+
+
+@media (max-width: 300px) {
+
+    .content p {
+        font-size: 9px;
     }
 
 }
