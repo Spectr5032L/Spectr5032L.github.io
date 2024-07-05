@@ -214,6 +214,10 @@
     .main-container .card .imgBox img {
         max-width: 100px !important; /* Размер изображения */
     }
+
+    .main-container .card:hover .imgBox img {
+        max-width: 100px !important;
+    }
     
     header p {
         font-size: 4.2vw;
