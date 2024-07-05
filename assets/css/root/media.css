@@ -1,8 +1,27 @@
 @media (max-width: 1280px) {
 
+    main {
+        padding: 2rem 5rem !important;
+    }
+
+    /* .main-container {
+        justify-content: space-around !important;
+    } */
+
+    .content p {
+        font-size: 15px;
+    }  
 }
 
 @media (max-width: 1024px) {
+
+    .main-container .card .imgBox img {
+        max-width: 250px !important;
+    }
+
+    .main-container .card:hover .imgBox img {
+        max-width: 120px !important;
+    }
 
     nav {
         height: 8.5vw;
@@ -19,7 +38,30 @@
         top: 29%;
     }
 
+}
 
+@media (max-width: 970px) {
+
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content p {
+        font-size: 16px;
+    }  
+
+    .main-container .card .imgBox img {
+        max-width: 300px !important;
+    }
+
+    .main-container .card:hover .imgBox img {
+        max-width: 150px !important;
+    }
+
+    .main-container .card {
+        width: 65% !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -56,6 +98,10 @@
         flex-direction: column;
     }
 
+    .main-container .card {
+        width: 85% !important;
+    }
+
     footer p {
         padding: 10px 0;
         font-size: 15px;
@@ -68,6 +114,38 @@
     footer img {
         height: 36px;
     }
+}
+
+@media (max-width: 600px) {
+
+    .content p {
+        font-size: 15px;
+    }
+
+    .main-container .card .imgBox {
+        top: calc(50% - 115px) !important;
+        left: -90px !important;
+        width: 170px !important; /* Размер карточки */
+        height: 170px !important;
+        background-color: #ffffff !important;
+    }
+    
+    .main-container .card .imgBox img {
+        max-width: 150px !important; /* Размер изображения */
+    }
+
+    .main-container .card .content {
+        left: 75px !important;
+        width: calc(100% - 125px) !important;
+        /* padding: 20px; */
+        top: calc(50% - 135px) !important;
+    }
+
+    .main-container .card {
+        left: 35px;
+        width: 105% !important;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -125,7 +203,7 @@
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 440px) {
 
     footer {
         flex-direction: column;
