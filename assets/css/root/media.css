@@ -9,8 +9,16 @@
     } */
 
     .content p {
-        font-size: 15px;
+        font-size: 15px !important;
     }  
+
+    .container-text p, .container-members p {
+        font-size: 20px !important;
+    }
+
+    .container-members {
+        gap: 60px !important;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -33,6 +41,18 @@
         height: 10vw;
     }
 
+    .container-members {
+        gap: 50px !important;
+    }
+
+    .member img {
+        width: 160px !important;
+    } 
+
+    .member:nth-child(2) img {
+        width: 210px !important;
+    }
+
     header p {
         font-size: 3.5vw;
         top: 29%;
@@ -47,8 +67,12 @@
         align-items: center;
     }
 
+    .main-container p {
+        font-size: 20px !important;
+    }
+
     .content p {
-        font-size: 16px;
+        font-size: 16px !important;
     }  
 
     .main-container .card .imgBox img {
@@ -61,6 +85,14 @@
 
     .main-container .card {
         width: 65% !important;
+    }
+
+    .member img {
+        width: 150px !important;
+    } 
+
+    .member:nth-child(2) img {
+        width: 200px !important;
     }
 }
 
@@ -114,6 +146,42 @@
         width: 85% !important;
     }
 
+    .container-map iframe {
+        height: 535px !important;
+    }
+
+    .member img {
+        width: 150px !important;
+    }
+
+    .member:nth-child(2) img {
+        width: 180px !important;
+    }
+
+
+
+
+
+    .member:nth-child(2) p {
+        margin-left: -30px !important;
+    }
+
+    .member:nth-child(4) img {
+        margin-right: 0px !important;
+    }
+
+    .container-members {
+        display: flex !important;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+
+
+
+
+
+
     footer p {
         padding: 10px 0;
         font-size: 15px;
@@ -131,7 +199,7 @@
 @media (max-width: 600px) {
 
     .content p {
-        font-size: 15px;
+        font-size: 15px !important;
     }
 
     .main-container .card .imgBox {
@@ -177,6 +245,21 @@
     .main-text {
         font-size: 12px !important;
     }
+    .main-container h3 {
+        font-size: 20px !important;
+    }
+    .container-contact p {
+        font-size: 18px !important;
+    }
+    .member:nth-child(2) img {
+        width: 150px !important;
+    }
+    .member img {
+        width: 120px !important;
+    }
+    .container-text p, .container-members p {
+        font-size: 16px !important;
+    }
     nav {
         height: 10vw;
     }
@@ -217,6 +300,10 @@
 
     .main-container .card:hover .imgBox img {
         max-width: 100px !important;
+    }
+
+    .container-map iframe {
+        height: 375px !important;
     }
     
     header p {
@@ -278,7 +365,7 @@
 @media (max-width: 350px) {
 
     .content p {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     .main-container .card {
@@ -287,6 +374,18 @@
 
     .main-container .card {
         left: 32px;
+    }
+
+    .main-container p {
+        font-size: 14px !important;
+    }
+
+    .member:nth-child(2) img {
+        width: 120px !important;
+    }
+
+    .member img {
+        width: 90px !important;
     }
 
     .main-container .card .imgBox {
@@ -299,11 +398,25 @@
     }
 }
 
+@media (max-width: 320px) {
+    .content p {
+        font-size: 12px !important;
+    }
+}
+
 
 @media (max-width: 300px) {
 
     .content p {
-        font-size: 9px;
+        font-size: 10px !important;
+    }
+
+    .container-map iframe {
+        height: 215px !important;
+    }
+
+    .container-contact p {
+        font-size: 13px !important;
     }
 
 }
