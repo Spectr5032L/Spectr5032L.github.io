@@ -39,18 +39,18 @@
             <div class="container-members">
                 <div class="member">
                     <img src="assets/img/team/Kirill-transparent.png" style="width: 181px;" alt="Загайкевич Кирилл">
-                    <p>Загайкевич Кирилл <br>Генеральный директор</p>
+                    <p>Загайкевич Кирилл <br> Генеральный директор</p>
                 </div>
                 <div class="member">
-                    <img src="assets/img/team/Nicita-transparent.png" style="width: 181px;" alt="Вторушин Никита">
-                    <p>Вторушин Никита <br>Главный специалист отдела разработки</p>
+                    <img src="assets/img/team/Nicita-transparent.png" style="width: 230px;" alt="Вторушин Никита">
+                    <p id="nikita">Вторушин Никита <br>Главный специалист отдела разработки</p>
                 </div>
                 <div class="member">
                     <img src="assets/img/team/Dima-transparent.png" style="width: 181px;" alt="Любченко Дмитрий">
                     <p>Любченко Дмитрий <br>Главный 3D-моделлер</p>
                 </div>
                 <div class="member">
-                    <img src="assets/img/team/Misha-transparent-short.png" style="width: 181px;" alt="Плотников Михаил">
+                    <img src="assets/img/team/Misha-transparent-short.png" style="width: 181px;margin-right: 50px;" alt="Плотников Михаил">
                     <p>Плотников Михаил <br>3D-моделлер</p>
                 </div>
             </div>
@@ -69,7 +69,25 @@
         </p>
     </footer>
 
+    <script>
+        function checkWidth() {
+            const nikitaParagraph = document.getElementById('nikita');
+            if (window.innerWidth <= 768) {
+                if (!nikitaParagraph.classList.contains('br-added')) {
+                    nikitaParagraph.innerHTML = 'Вторушин Никита <br>Главный специалист <br> отдела разработки';
+                    nikitaParagraph.classList.add('br-added');
+                }
+            } else {
+                if (nikitaParagraph.classList.contains('br-added')) {
+                    nikitaParagraph.innerHTML = 'Вторушин Никита <br>Главный специалист отдела разработки';
+                    nikitaParagraph.classList.remove('br-added');
+                }
+            }
+        }
+
+        window.addEventListener('resize', checkWidth);
+        window.addEventListener('DOMContentLoaded', checkWidth);
+    </script>
+
 </body>
 </html>
-
-<!-- Проверить точно ли ему нужны все файлы css -->
