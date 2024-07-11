@@ -1,5 +1,5 @@
 main {
-    flex: 1; /* Заставляет main занимать все доступное пространство */
+    flex: 1;
     /* padding: 50px 180px; */
     padding: 3rem 9rem;
     display: flex;
@@ -15,7 +15,3 @@ main {
     flex-wrap: wrap;
     max-width: 882px;
 }
-
-/* .main-video {
-    position: relative;
-} */
