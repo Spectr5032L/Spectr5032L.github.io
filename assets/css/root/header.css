@@ -55,15 +55,15 @@ header > div {
 }
 
 header p {
-    position: absolute; /* Позиционируем абсолютно внутри div с position: relative */
+    position: absolute;
     font-size: 48px;
     /* font-size: 2.5vw; */
     color: white;
     /* max-width: 800px; */
     max-width: 50vw;
-    top: 37%; /* Перемещаем вниз относительно верхнего края на 50% высоты родительского блока */
-    left: 5%; /* Перемещаем вправо относительно левого края на 50% ширины родительского блока */
-    /* width: max-content; Минимальная ширина содержимого, можно задать фиксированную ширину если нужно */
+    top: 37%;
+    left: 5%;
+    /* width: max-content; */
     /* z-index: 1; */
     text-align: left;
 }
